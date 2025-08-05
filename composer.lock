@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cb2369891d6549c00f7ba3f38be4360b",
+    "content-hash": "b64eef6b776eb8008e7d0f31c6712538",
     "packages": [
         {
             "name": "brick/varexporter",
@@ -204,7 +204,7 @@
             "version": "1.0.x-dev",
             "source": {
                 "type": "git",
-                "url": "c:/lm-commons/LmcAuthentication",
+                "url": "c:/lm-commons/lmc-authentication",
                 "reference": "d48408912a49f42427ec74b5d8db7b188dd12b24"
             },
             "require": {

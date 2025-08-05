@@ -57,7 +57,7 @@
   "repositories": [
     {
       "type": "git",
-      "url": "c:/lm-commons/LmcAuthentication"
+      "url": "c:/lm-commons/lmc-authentication"
     }
   ]
 }
