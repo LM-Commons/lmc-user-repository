@@ -1,0 +1,2 @@
+# LmcUserRepository
+Base LmcUser Repository
