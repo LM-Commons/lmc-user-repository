@@ -13,27 +13,27 @@ interface UserInterface extends LmcAuthenticationUserInterface
     public const STATE_INACTIVE = 2;
     public const STATE_DELETED  = 3;
 
-    public function getId(): string;
+    public function getId(): ?string;
 
     public function setId(string $id): UserInterface;
 
-    public function getUsername(): string;
+    public function getUsername(): ?string;
 
     public function setUsername(string $username): UserInterface;
 
-    public function getEmail(): string;
+    public function getEmail(): ?string;
 
     public function setEmail(string $email): UserInterface;
 
-    public function getDisplayName(): string;
+    public function getDisplayName(): ?string;
 
     public function setDisplayName(string $displayName): UserInterface;
 
-    public function getPassword(): string;
+    public function getPassword(): ?string;
 
     public function setPassword(string $password): UserInterface;
 
-    public function getState(): int;
+    public function getState(): ?int;
 
     public function setState(int $state): UserInterface;
 }
