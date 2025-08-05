@@ -13,6 +13,8 @@ interface UserInterface extends LmcAuthenticationUserInterface
     public const STATE_INACTIVE = 2;
     public const STATE_DELETED  = 3;
 
+    public function getId(): string;
+
     public function setId(string $id): UserInterface;
 
     public function getUsername(): string;
