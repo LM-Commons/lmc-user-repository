@@ -6,7 +6,7 @@ namespace Lmc\User\Repository;
 
 interface AdapterInterface
 {
-    public function findById(string $id): ?UserInterface;
+    public function findById(string|int $id): ?UserInterface;
 
     public function findByUsername(string $username): ?UserInterface;
 
