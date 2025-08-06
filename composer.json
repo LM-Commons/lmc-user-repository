@@ -29,11 +29,6 @@
       "LmcTest\\User\\Repository\\": "test/"
     }
   },
-  "extra": {
-    "laminas": {
-      "config-provider": "Lmc\\User\\Repository\\ConfigProvider"
-    }
-  },
   "config": {
     "allow-plugins": {
       "dealerdirect/phpcodesniffer-composer-installer": true
