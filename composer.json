@@ -1,8 +1,8 @@
 {
   "name": "lm-commons/lmc-user-repository",
   "type": "library",
-  "description": "Lmc User Repository Common",
-  "license": "MIT",
+  "description": "Lmc User Repository Interface",
+  "license": "BSD-3-Clause",
   "authors": [
     {
       "name": "Eric Richer",
@@ -15,9 +15,8 @@
   },
   "require-dev": {
     "laminas/laminas-coding-standard": "^3.0",
-    "phpunit/phpunit": "^11.5",
     "psalm/plugin-phpunit": "^0.19",
-    "vimeo/psalm": "^6.0"
+    "vimeo/psalm": "^6.13"
   },
   "autoload": {
     "psr-4": {
@@ -25,9 +24,6 @@
     }
   },
   "autoload-dev": {
-    "psr-4": {
-      "LmcTest\\User\\Repository\\": "test/"
-    }
   },
   "config": {
     "allow-plugins": {
@@ -48,11 +44,5 @@
     "cs-fix": "phpcbf",
     "test-coverage-html": "phpunit --coverage-html ./build/html",
     "static-analysis": "psalm --shepherd --stats"
-  },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "c:/lm-commons/lmc-authentication"
-    }
-  ]
+  }
 }

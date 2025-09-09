@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files psalm-version="6.13.1@1e3b7f0a8ab32b23197b91107adc0a7ed8a05b51">
+  <file src="src/AdapterInterface.php">
+    <UnusedClass>
+      <code><![CDATA[AdapterInterface]]></code>
+    </UnusedClass>
+  </file>
+  <file src="src/UserInterface.php">
+    <PossiblyUnusedMethod>
+      <code><![CDATA[getDisplayName]]></code>
+      <code><![CDATA[getEmail]]></code>
+      <code><![CDATA[getId]]></code>
+      <code><![CDATA[getPassword]]></code>
+      <code><![CDATA[getState]]></code>
+      <code><![CDATA[getUsername]]></code>
+      <code><![CDATA[setDisplayName]]></code>
+      <code><![CDATA[setEmail]]></code>
+      <code><![CDATA[setId]]></code>
+      <code><![CDATA[setPassword]]></code>
+      <code><![CDATA[setState]]></code>
+      <code><![CDATA[setUsername]]></code>
+    </PossiblyUnusedMethod>
+  </file>
+</files>
