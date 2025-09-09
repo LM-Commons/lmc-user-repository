@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "27a6dd79ff97ca2a9fce57f80245e7a8",
+    "content-hash": "8566a9850579dd15fb9775ffa4fb9195",
     "packages": [
         {
             "name": "laminas/laminas-stdlib",
@@ -70,8 +70,14 @@
             "version": "1.0.x-dev",
             "source": {
                 "type": "git",
-                "url": "c:/lm-commons/lmc-authentication",
+                "url": "https://github.com/LM-Commons/lmc-authentication.git",
                 "reference": "f97b09365aeacf881cb51809efe74438c82db85c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/LM-Commons/lmc-authentication/zipball/f97b09365aeacf881cb51809efe74438c82db85c",
+                "reference": "f97b09365aeacf881cb51809efe74438c82db85c",
+                "shasum": ""
             },
             "require": {
                 "laminas/laminas-stdlib": "^3.1",
@@ -98,35 +104,7 @@
                     "Lmc\\Authentication\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "LmcTest\\Authentication\\": "test/"
-                }
-            },
-            "scripts": {
-                "check": [
-                    "@cs-check",
-                    "@test"
-                ],
-                "cs-check": [
-                    "phpcs"
-                ],
-                "cs-fix": [
-                    "phpcbf"
-                ],
-                "test": [
-                    "phpunit --colors=always"
-                ],
-                "test-coverage": [
-                    "phpunit --coverage-clover ./build/logs/clover.xml"
-                ],
-                "test-coverage-html": [
-                    "phpunit --colors=always --coverage-html ./build/html"
-                ],
-                "static-analysis": [
-                    "psalm --shepherd --stats"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -138,10 +116,14 @@
             ],
             "description": "Laminas Mezzio Authentication",
             "keywords": [
-                "authentication",
+                "Authentication",
                 "laminas",
                 "mezzio"
             ],
+            "support": {
+                "issues": "https://github.com/LM-Commons/lmc-authentication/issues",
+                "source": "https://github.com/LM-Commons/lmc-authentication/tree/1.0.x"
+            },
             "time": "2025-09-09T15:47:12+00:00"
         },
         {
