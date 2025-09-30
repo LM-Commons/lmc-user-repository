@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace Lmc\User\Repository;
 
-use Lmc\Authentication\UserInterface as LmcAuthenticationUserInterface;
+use Mezzio\Authentication\UserInterface as MezzioUserInterface;
 
-interface UserInterface extends LmcAuthenticationUserInterface
+interface UserInterface extends MezzioUserInterface
 {
     public const STATE_INVALID  = 0;
     public const STATE_ACTIVE   = 1;
