@@ -8,10 +8,10 @@ use Mezzio\Authentication\UserInterface as MezzioUserInterface;
 
 interface UserInterface extends MezzioUserInterface
 {
-    public const STATE_INVALID  = 0;
-    public const STATE_ACTIVE   = 1;
-    public const STATE_INACTIVE = 2;
-    public const STATE_DELETED  = 3;
+    public const int STATE_INVALID  = 0;
+    public const int STATE_ACTIVE   = 1;
+    public const int STATE_INACTIVE = 2;
+    public const int STATE_DELETED  = 3;
 
     public function getId(): string|int|null;
 
