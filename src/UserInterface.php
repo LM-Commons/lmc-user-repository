@@ -19,21 +19,23 @@ interface UserInterface extends MezzioUserInterface
 
     public function getUsername(): ?string;
 
-    public function setUsername(string $username): UserInterface;
+    public function setUsername(?string $username): UserInterface;
 
     public function getEmail(): ?string;
 
-    public function setEmail(string $email): UserInterface;
+    public function setEmail(?string $email): UserInterface;
 
     public function getDisplayName(): ?string;
 
-    public function setDisplayName(string $displayName): UserInterface;
+    public function setDisplayName(?string $displayName): UserInterface;
 
     public function getPassword(): ?string;
 
-    public function setPassword(string $password): UserInterface;
+    public function setPassword(?string $password): UserInterface;
 
-    public function getState(): ?int;
+    public function getState(): int|string|null;
 
-    public function setState(int $state): UserInterface;
+    public function setState(int|string|null $state): UserInterface;
+
+    public function setRoles(array $roles): UserInterface;
 }
