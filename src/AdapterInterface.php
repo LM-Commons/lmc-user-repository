@@ -18,7 +18,7 @@ interface AdapterInterface
 
     public function delete(UserInterface $user): mixed;
 
-    public function validateCredential(UserInterface $user, string $credential): bool;
+    public function validateCredential(UserInterface $user, mixed $credential): bool;
 
-    public function updateCredential(UserInterface $user, string $credential): void;
+    public function updateCredential(UserInterface $user, mixed $credential): void;
 }
